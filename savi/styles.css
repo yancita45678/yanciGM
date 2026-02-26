@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f9f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* HEADER CON LOGO */
+header {
+    background-color: #2e7d32;
+    color: white;
+    padding: 20px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.logo {
+    width: 70px;
+    height: auto;
+}
+
+.slogan {
+    font-style: italic;
+    font-size: 14px;
+}
+
+/* SECCIONES */
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+h2 {
+    color: #2e7d32;
+    margin-bottom: 20px;
+}
+
+ul, ol {
+    max-width: 500px;
+    margin: auto;
+    text-align: left;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.modalidad {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #1b5e20;
+}
+
+/* BOTÓN WHATSAPP */
+.contact {
+    background-color: #e8f5e9;
+}
+
+#whatsappBtn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 25px;
+    background-color: #25D366;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+#whatsappBtn:hover {
+    background-color: #1ebe5d;
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    .logo-container {
+        flex-direction: column;
+    }
+}
